@@ -1,0 +1,17 @@
+static void Main(string[] args)
+ {
+     string data = "10_200_3_1";
+     int sum = 0;
+     int i = 0;
+     while(i<data.Length)
+     {
+         if (data[i] >= '0' && data[i] <= '9')
+         {
+             sum += (int)(data[i] - '0');
+             
+         }
+         i = i + 1;
+     }
+     Console.WriteLine(sum);
+ }  
+
