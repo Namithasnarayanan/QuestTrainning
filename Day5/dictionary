@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day5_list1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            List<List<int>> studentsMarks = new List<List<int>>();
+
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Enter marks for student {i + 1}:");
+
+                List<int> marks = new List<int>();
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.Write($"Enter mark {j + 1}: ");
+                    int mark = int.Parse(Console.ReadLine());
+                    marks.Add(mark);
+                }
+
+                studentsMarks.Add(marks);
+                Console.WriteLine();
+            }
+
+
+            Console.WriteLine("Marks of all students:");
+            for (int i = 0; i < studentsMarks.Count; i++)
+            {
+                Console.WriteLine($"[{string.Join(", ", studentsMarks[i])}]");
+            }
+        }
+    }
+}
