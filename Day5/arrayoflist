@@ -1,0 +1,46 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day5_arrayoflist
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+           
+            List<int>[] studentMarks = new List<int>[5];
+
+        
+            for (int i = 0; i < 5; i++)
+            {
+                studentMarks[i] = new List<int>();
+            }
+
+      
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Enter marks for Student {i + 1}:");
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.Write($"Subject {j + 1}: ");
+                    int mark = int.Parse(Console.ReadLine());
+                    studentMarks[i].Add(mark);
+                }
+            }
+
+        
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Marks for Student {i + 1}:");
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.WriteLine($"Subject {j + 1}: {studentMarks[i][j]}");
+                }
+            }
+        }
+    }
+}
