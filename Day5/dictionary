@@ -1,0 +1,45 @@
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Day5_dictionary
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
+
+            var marksDict = new Dictionary<string, double>();
+            Console.Write("Enter the number of subjects: ");
+            int numSubjects = int.Parse(Console.ReadLine());
+
+          
+            for (int i = 0; i < numSubjects; i++)
+            {
+                Console.Write("Enter the subject name: ");
+                string subject = Console.ReadLine();
+
+                Console.Write($"Enter the mark for {subject}: ");
+                double mark = double.Parse(Console.ReadLine());
+
+                
+                marksDict[subject] = mark;
+            }
+
+           
+            Console.WriteLine("\nSubject and Marks Dictionary:");
+            foreach (var entry in marksDict)
+            {
+                Console.WriteLine($"Subject: {entry.Key}, Mark: {entry.Value}");
+
+
+            }
+        }
+    }
+    
+    }
+    
