@@ -134,6 +134,8 @@ namespace Hospitalmanagement
 
         static void Main(string[] args)
         {
+            while(true)
+            {
             Console.WriteLine("Enter your choice : \n1.Add Department\n2.Add Doctor\n3.Admit Patient \n4.List Doctors in Department\n5.List Patients of a doctor\n6.Discharge Patient\n7.Exit");
             int choice =int.Parse( Console.ReadLine());
 
@@ -168,4 +170,5 @@ namespace Hospitalmanagement
 
         }
     }
+}
 }
