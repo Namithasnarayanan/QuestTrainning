@@ -1,0 +1,256 @@
+Which method in C# is used to split a string into an array?
+A.
+Split()
+B.
+Divide()
+C.
+Separate()
+D.
+Parse()
+Question 2 of 20
+Points
+1 / 1
+
+What will be the output of the following code? int? a = null; Console.WriteLine(a ?? 0);
+A.
+null
+B.
+0
+C.
+Compile-time error
+D.
+Runtime error
+Question 3 of 20
+Points
+1 / 1
+
+Which method is used to add elements to a List in C#?
+A.
+Insert()
+B.
+Add()
+C.
+Append()
+D.
+Push()
+Question 4 of 20
+Points
+1 / 1
+
+ Which of the following is NOT a value type in C#?
+A.
+int
+B.
+bool
+C.
+struct
+D.
+class
+Question 5 of 20
+Points
+1 / 1
+
+ Which of the following is a correct way to initialize a dictionary in C#?
+A.
+Dictionary<int, string> dict = new Dictionary<int, string>();
+B.
+dict = new Dictionary<>();
+C.
+Dictionary<int, string> dict = new Dictionary<>();
+D.
+dict = new Dictionary<int, string>();
+Question 6 of 20
+Points
+1 / 1
+
+ Which of the following allows duplicate keys in C#?
+A.
+List
+B.
+Dictionary
+C.
+Array
+D.
+None of the above
+Question 7 of 20
+Points
+1 / 1
+
+ Which of these keywords is used to make a variable nullable?
+A.
+?
+B.
+!
+C.
+@
+D.
+#
+Question 8 of 20
+Points
+1 / 1
+
+Which of the following data types cannot store a null value?
+A.
+int
+B.
+string
+C.
+object
+D.
+int?
+Question 9 of 20
+Points
+1 / 1
+
+ Which of the following is immutable in C#?
+A.
+Array
+B.
+String
+C.
+List
+D.
+Dictionary
+Question 10 of 20
+Points
+1 / 1
+
+ What is the default value of a nullable integer (int?) in C#?
+A.
+0
+B.
+null
+C.
+1
+D.
+undefined
+Question 11 of 20
+Points
+1 / 1
+
+ Which of the following is a reference type in C#?
+A.
+int
+B.
+float
+C.
+object
+D.
+bool
+Question 12 of 20
+Points
+1 / 1
+
+ Which of the following collection types maintains key-value pairs in C#?
+A.
+List
+B.
+Array
+C.
+Dictionary
+D.
+Queue
+Question 13 of 20
+Points
+0 / 1
+
+ Which of the following is a value type in C#?
+A.
+String
+B.
+Array
+C.
+Int
+D.
+Object
+Question 14 of 20
+Points
+1 / 1
+
+ What is the size of an int in C#?
+A.
+4 bytes
+B.
+8 bytes
+C.
+2 bytes
+D.
+16 bytes
+Question 15 of 20
+Points
+1 / 1
+
+What is the default accessibility of class members in C#?
+A.
+public
+B.
+private
+C.
+protected
+D.
+internal
+Question 16 of 20
+Points
+1 / 1
+
+18. Which of the following keywords is used to handle exceptions in C#?
+A.
+handle
+B.
+exception
+C.
+try
+D.
+check
+Question 17 of 20
+Points
+1 / 1
+
+7. Which keyword is used to pass arguments by reference in C#?
+A.
+out
+B.
+ref
+C.
+in
+D.
+pass
+Question 18 of 20
+Points
+1 / 1
+
+ Which of the following allows dynamic resizing in C#?
+A.
+Array
+B.
+List
+C.
+Tuple
+D.
+Struct
+Question 19 of 20
+Points
+1 / 1
+
+What does the params keyword allow in C#?
+A.
+Pass a fixed number of arguments
+B.
+Pass a variable number of arguments
+C.
+Prevent passing any arguments
+D.
+Specify default arguments
+Question 20 of 20
+Points
+1 / 1
+
+ Which of the following is a correct declaration of a method with default parameters?
+A.
+void MyMethod(int x = 10)
+B.
+void MyMethod(int x, int y)
+C.
+void MyMethod(default int x)
+D.
+void MyMethod(int x: 10)
